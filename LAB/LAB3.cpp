@@ -21,5 +21,7 @@ printf("%2d ", arr[i]);
     else
 printf("%2s ", "#"); 
     }
-    printf("\n");return 0;
-        }
+    printf("\n");
+    return 0;
+       
+  }

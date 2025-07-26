@@ -10,5 +10,5 @@ int main() {
     printf( "- - - - - -\n" ) ;
     printf( "Hello %s \n", Name ) ; 
     printf( "Age = %d\n", Age ) ; 
-    
+    return 0;
 }//end main function
