@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="Xa4HiU06uu2VXl8qRVdY">
-        <mxGraphModel dx="3093" dy="2457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="4963" dy="3340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -11,7 +11,7 @@
                     <mxGeometry x="40" y="70" width="580" height="240" as="geometry"/>
                 </mxCell>
                 <mxCell id="of-Or63fq2WvLNfduHY4-1" value="ทบทวนสัญลักษณ์" style="swimlane;fontFamily=Sarabun;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" parent="1" vertex="1">
-                    <mxGeometry x="-2292.5" y="-1730" width="640" height="240" as="geometry"/>
+                    <mxGeometry x="-2263" y="-1729.99" width="640" height="240" as="geometry"/>
                 </mxCell>
                 <mxCell id="of-Or63fq2WvLNfduHY4-2" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;เริ่มต้น&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="of-Or63fq2WvLNfduHY4-1" vertex="1">
                     <mxGeometry x="20" y="40" width="130" height="30" as="geometry"/>
