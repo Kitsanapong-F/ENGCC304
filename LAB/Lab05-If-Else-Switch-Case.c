@@ -31,7 +31,7 @@ int main(){
         printf("D !");
     }
     
-    else(score<=49) {
+    else(score<=49); {
         printf("F !");
     }
 
