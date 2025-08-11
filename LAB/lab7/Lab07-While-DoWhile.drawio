@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="2OwxdWjn2Liq3-fGHZ-8" name="Page-1">
-        <mxGraphModel dx="1737" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1216" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -211,7 +211,7 @@
                 <mxCell id="98" value="แสดง&amp;nbsp;&lt;div&gt;see you again&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="1015.12" y="350" width="123" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="100" value="เริ่ม" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="100" value="จบ" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="790.12" y="1320" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="127" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" parent="1" source="104" edge="1">
