@@ -1,21 +1,16 @@
 #include<stdio.h>
 #include <stdbool.h>
 int main(){
-    int add=0,cancel=0,dismiss=0;
+    int add=0,cancel=0,dismiss=0,buy=0;
     int coke=0,sun=0,green=0,nut=0,late=0,ame=0,som=0;
     int c=50,s=50,g=50,n=50,l=50,a=50,so=50;
     int select=0,selectsnack=0,selectwalter=0;
     char exit;
-    bool Condition1 = true ,Condition2 = true , Condition3 =true,Condition4=true,Condition5=true;
+    bool Condition1 = true ,Condition2 = true , Condition3 =true,Condition4=true,Condition5=true,Condition6=true;
     printf("welcome\n");
     while(Condition1) {
      printf("\nต้องการเลือกประเภทน้ำหรือขนม\nขนม = 1\nน้ำ = 2 \n");
-     if(scanf("%d", &select) !=1){
-        printf("กรุณาเลือก(1)หรือ(2)\n");
-         printf("------------------------------------------------------------");
-        while (getchar() != '\n');
-        continue; 
-      }
+     scanf("%d", &select);
      if(select == 1){
         printf("------------------------------------------------------------\n");
         printf("เมล็ดทานตะวัน 13 บาท\nถั่วแปบ 20 บาท\nจิ้นส้มหมก 15 บาท");
@@ -229,6 +224,18 @@ int main(){
       }
      }
     }
+  while(Condition6){
+  printf("ราคาสินค้า\n");
+  printf("เมล็ดทานตะวัน = %d บาท\nถั่วแปบ = %d บาท\nจิ้นส้มหมก = %d บาท\nโค็กกระป๋อง = %d บาท\nน้ำเขียวกระป๋อง = %d บาท\nอเมริกาโน่ = %d บาท\nลาเต้หวานเจี๊ยบ = %d บาท\nราคารวม = %d บาท\n",sun*13,nut*20,som*15,coke*10,green*12,ame*30,late*35,(sun*13)+(nut*20)+(som*15)+(coke*10)+(green*12)+(ame*30)+(late*35));
+  printf("ท่านต้องการชำระเงินหรือไม่ (ใช่=1 ไม่=2)\n");
+  scanf("%d",&buy);
+  if(buy==2){
+    Condition6=false;
+  }
+  else if(buy==1){
+    
+  }
+}
   }
      return 0;
 }
