@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="Xa4HiU06uu2VXl8qRVdY">
-        <mxGraphModel dx="4963" dy="3340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="4224" dy="2979" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -777,7 +777,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="4r5OtbxDzH6CqMdZdlSV-32" value="แสดง&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;เมล็ดทานตะวัน:ทานตะวัน ชิ้น&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;ถั่วแปบ:ถั่ว ชิ้น&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;จิ้นส้มหมก:จิ้นส้ม ชิ้น&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; โค้กกระป๋อง:โค้ก ชิ้น&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;น้ำเขียวกระป๋อง:น้ำเขียว ชิ้น&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;อเมริกาโน่:อเมริ ชิ้น&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ลาเต้หวานเจี๊ยบ: ลาเต้ ชิ้น&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="-1362.5" width="215" height="120" as="geometry"/>
+                    <mxGeometry x="-1365" width="215" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="4r5OtbxDzH6CqMdZdlSV-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4r5OtbxDzH6CqMdZdlSV-36" target="4r5OtbxDzH6CqMdZdlSV-62" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -832,7 +832,7 @@
                 <mxCell id="4r5OtbxDzH6CqMdZdlSV-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4r5OtbxDzH6CqMdZdlSV-49" target="4r5OtbxDzH6CqMdZdlSV-66" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4r5OtbxDzH6CqMdZdlSV-49" value="น้ำเขียว=น้ำเขียว+1" style="whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="4r5OtbxDzH6CqMdZdlSV-49" value="น้ำเขียว=น้ำเขียว-1" style="whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="-1271" y="700" width="100" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="4r5OtbxDzH6CqMdZdlSV-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4r5OtbxDzH6CqMdZdlSV-52" target="4r5OtbxDzH6CqMdZdlSV-55" edge="1">
