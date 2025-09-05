@@ -14,17 +14,23 @@
     Output:
         97 89 83 79 73 71 67 61 59 53 47 43 41 37 31 29 23 19 17 13 11 7 5 3 2
 */
-#include<stdio.h>
+#include <stdio.h>
 int main(){
-    int Number=0,;
-    printf("Enter number :");
-    scanf("%d", &Number);
-    int i=Number;
-    for(i=Number;i<=0;i--){
-        if(Number%2==0 || Number%3==0 || Number%5==0 ){
-           printf("%d",Number);
-
+int n=0;
+printf("Enter number :\n");
+scanf("%d",&n);
+int i=n;
+for(i=n;i>=2;i--){
+    int x=2;
+     for ( x=2 ; x < i; x++) {
+            if (i % x == 0) {
+                break;
+            }
         }
+          if(x==i){ 
+            printf("%d ", i);
+              
+          }
     }
     return 0;
 }
