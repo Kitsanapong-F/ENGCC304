@@ -12,7 +12,6 @@ int main() {
 
     b1000 = money / 1000;
     money %= 1000;
-    sb1000=sb1000+b1000;
 
     b500 = money / 500;
     money %= 500;
