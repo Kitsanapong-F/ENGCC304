@@ -47,3 +47,20 @@
         7 -> 1 value.
         9 -> 2 values.
 */
+#include<stdio.h>
+#include<stdbool.h>
+int main(){
+    int n=0,i=0;
+    bool con=true;
+    printf("Input N :");
+    scanf("%d",&n);
+    int array[n];
+    while(con){
+        printf("Element[%d] :\n",i);
+        scanf("%d",&array[i]);
+        if(i>=n-1){
+            con=false;
+        }
+        i++;
+    }
+}

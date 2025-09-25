@@ -25,9 +25,9 @@ int main(){
             }
         }
         if(x == num[i] && num[i] > 1){ 
-            printf("%d ", num[i]);
+            printf(" %d ", num[i]);
         } else {
-            printf("# ");
+            printf(" # ");
         }
     }
 

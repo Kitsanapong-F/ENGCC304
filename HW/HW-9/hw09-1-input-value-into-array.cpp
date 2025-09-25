@@ -26,28 +26,26 @@
 
 */
 #include<stdio.h>
-#include <stdbool.h>
+#include<stdbool.h>
 int main(){
-    int i=0;
     int array[100];
-    bool condition = true;
-    while (condition)
-    {
-        printf("input [%d]",i);
-        scanf("%d",&array[i]);
-        if (array[i] == -1)
-        {
-            condition=false;
+    int a=0;
+    bool con =true;
+    while(con){
+        printf("input [%d]",a+1);
+        scanf("%d",&array[a]);
+        if(array[a]==-1){
+            con=false;
         }
-        i++;
+        a++;
     }
-    printf("Index =");
-    for(int index=0;index<i-1;index++){
-            printf(" %d ",index);
+    printf("index =");
+    for(int i=0;i<a-1;i++){
+        printf(" %d ",i);
     }
     printf("\nArray =");
-    for(int j=0;j<i-1;j++){
-        printf(" %d ",array[j]);
+    for(int j=1;j<a;j++){
+        printf(" %d ",array[j-1]);
     }
     return 0;
 }

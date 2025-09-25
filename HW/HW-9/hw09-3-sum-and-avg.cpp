@@ -45,3 +45,37 @@
         Array2 = 7 -3 5 19 27 -16 13 -7
 
 */
+#include<stdio.h>
+#include<stdbool.h>
+int array2[100];
+int main(){
+    int array[100];
+    int a=0;
+    bool con =true;
+    while(con){
+        printf("input [%d]",a+1);
+        scanf("%d",&array[a]);
+        if(array[a]==-1){
+            con=false;
+        }
+        a++;
+    }
+    printf("\nArray1 =");
+    for(int j=1;j<a;j++){
+        printf(" %d ",array[j-1]);
+    }
+    printf("\nArray2 =");
+    for(int i=1;i<a;i++){
+        printf(" %d ",array2[i-1]);
+    }
+    printf("\n --| Copy Data from Array1 to Array2\n");
+    for (int c= 0;  c< a-1; c++) {
+        array2[c] = array[c];
+    }
+    printf("Array2 =");
+    for(int x=1;x<a;x++){
+        printf(" %d ",array2[x-1]);
+    }
+    return 0;
+
+}
