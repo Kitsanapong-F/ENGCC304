@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-int isPrime(int num);
+int isPrime(int num);//prototype
 int main() {
     int n;
     printf("Enter N : ");
@@ -26,7 +26,6 @@ int main() {
     printf("\n");
     return 0;
 }//end main function
-
 int isPrime(int num) {
     if (num < 2)       // ถ้าน้อยกว่า 2 ไม่ใช่จำนวนเฉพาะ
         return 0;

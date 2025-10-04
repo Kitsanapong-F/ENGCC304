@@ -18,6 +18,6 @@ int main(){
     int Day=0;
     printf("Input Days :");
     scanf("%d",&Day);
-    int all=Day*86400 ;
-    printf("%d days = %d  seconds", Day , all);
+    int seconds=Day*86400 ;
+    printf("%d days = %d  seconds", Day , seconds);
 }
