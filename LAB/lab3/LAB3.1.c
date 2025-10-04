@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    float high=0,weight=0;
+    printf("H =");
+    scanf("%f",&high);
+    printf("W =");
+    scanf("%f",&weight);
+    printf("Area = %.1f",(high*weight)/2);
+}
