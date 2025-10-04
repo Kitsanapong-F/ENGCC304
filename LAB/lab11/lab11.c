@@ -10,7 +10,7 @@ int main(){
     int str;
     printf("Enter Number:");
     scanf("%d",&str);
-    if(str==strong(str)){
+    if(str==srotng(str)){
         printf("Pass.");
     }
     else{
